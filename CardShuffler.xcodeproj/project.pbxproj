@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		DBADCDA028FED78C00A98462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCD9F28FED78C00A98462 /* AppDelegate.swift */; };
 		DBADCDA228FED78C00A98462 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDA128FED78C00A98462 /* SceneDelegate.swift */; };
-		DBADCDA428FED78C00A98462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDA328FED78C00A98462 /* ViewController.swift */; };
 		DBADCDA728FED78C00A98462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBADCDA528FED78C00A98462 /* Main.storyboard */; };
 		DBADCDA928FED78D00A98462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBADCDA828FED78D00A98462 /* Assets.xcassets */; };
 		DBADCDAC28FED78D00A98462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBADCDAA28FED78D00A98462 /* LaunchScreen.storyboard */; };
 		DBADCDB728FED78D00A98462 /* CardShufflerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDB628FED78D00A98462 /* CardShufflerTests.swift */; };
 		DBADCDC128FED78D00A98462 /* CardShufflerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDC028FED78D00A98462 /* CardShufflerUITests.swift */; };
 		DBADCDC328FED78D00A98462 /* CardShufflerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDC228FED78D00A98462 /* CardShufflerUITestsLaunchTests.swift */; };
+		DBADCDD028FEDB8900A98462 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDCF28FEDB8900A98462 /* CardSelectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		DBADCD9C28FED78C00A98462 /* CardShuffler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardShuffler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBADCD9F28FED78C00A98462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBADCDA128FED78C00A98462 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBADCDA328FED78C00A98462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBADCDA628FED78C00A98462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBADCDA828FED78D00A98462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBADCDAB28FED78D00A98462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		DBADCDBC28FED78D00A98462 /* CardShufflerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardShufflerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBADCDC028FED78D00A98462 /* CardShufflerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShufflerUITests.swift; sourceTree = "<group>"; };
 		DBADCDC228FED78D00A98462 /* CardShufflerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShufflerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBADCDCF28FEDB8900A98462 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 			children = (
 				DBADCD9F28FED78C00A98462 /* AppDelegate.swift */,
 				DBADCDA128FED78C00A98462 /* SceneDelegate.swift */,
-				DBADCDA328FED78C00A98462 /* ViewController.swift */,
+				DBADCDCF28FEDB8900A98462 /* CardSelectionVC.swift */,
 				DBADCDA528FED78C00A98462 /* Main.storyboard */,
-				DBADCDA828FED78D00A98462 /* Assets.xcassets */,
 				DBADCDAA28FED78D00A98462 /* LaunchScreen.storyboard */,
+				DBADCDA828FED78D00A98462 /* Assets.xcassets */,
 				DBADCDAD28FED78D00A98462 /* Info.plist */,
 			);
 			path = CardShuffler;
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBADCDA428FED78C00A98462 /* ViewController.swift in Sources */,
 				DBADCDA028FED78C00A98462 /* AppDelegate.swift in Sources */,
 				DBADCDA228FED78C00A98462 /* SceneDelegate.swift in Sources */,
+				DBADCDD028FEDB8900A98462 /* CardSelectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
