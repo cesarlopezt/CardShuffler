@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBADCDA028FED78C00A98462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCD9F28FED78C00A98462 /* AppDelegate.swift */; };
+		DBADCDA228FED78C00A98462 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDA128FED78C00A98462 /* SceneDelegate.swift */; };
+		DBADCDA428FED78C00A98462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDA328FED78C00A98462 /* ViewController.swift */; };
+		DBADCDA728FED78C00A98462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBADCDA528FED78C00A98462 /* Main.storyboard */; };
+		DBADCDA928FED78D00A98462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBADCDA828FED78D00A98462 /* Assets.xcassets */; };
+		DBADCDAC28FED78D00A98462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBADCDAA28FED78D00A98462 /* LaunchScreen.storyboard */; };
+		DBADCDB728FED78D00A98462 /* CardShufflerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDB628FED78D00A98462 /* CardShufflerTests.swift */; };
+		DBADCDC128FED78D00A98462 /* CardShufflerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDC028FED78D00A98462 /* CardShufflerUITests.swift */; };
+		DBADCDC328FED78D00A98462 /* CardShufflerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCDC228FED78D00A98462 /* CardShufflerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBADCDB328FED78D00A98462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBADCD9428FED78C00A98462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBADCD9B28FED78C00A98462;
+			remoteInfo = CardShuffler;
+		};
+		DBADCDBD28FED78D00A98462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBADCD9428FED78C00A98462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBADCD9B28FED78C00A98462;
+			remoteInfo = CardShuffler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBADCD9C28FED78C00A98462 /* CardShuffler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardShuffler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBADCD9F28FED78C00A98462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBADCDA128FED78C00A98462 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBADCDA328FED78C00A98462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBADCDA628FED78C00A98462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBADCDA828FED78D00A98462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBADCDAB28FED78D00A98462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBADCDAD28FED78D00A98462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBADCDB228FED78D00A98462 /* CardShufflerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardShufflerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBADCDB628FED78D00A98462 /* CardShufflerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShufflerTests.swift; sourceTree = "<group>"; };
+		DBADCDBC28FED78D00A98462 /* CardShufflerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardShufflerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBADCDC028FED78D00A98462 /* CardShufflerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShufflerUITests.swift; sourceTree = "<group>"; };
+		DBADCDC228FED78D00A98462 /* CardShufflerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShufflerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBADCD9928FED78C00A98462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBADCDAF28FED78D00A98462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBADCDB928FED78D00A98462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBADCD9328FED78C00A98462 = {
+			isa = PBXGroup;
+			children = (
+				DBADCD9E28FED78C00A98462 /* CardShuffler */,
+				DBADCDB528FED78D00A98462 /* CardShufflerTests */,
+				DBADCDBF28FED78D00A98462 /* CardShufflerUITests */,
+				DBADCD9D28FED78C00A98462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBADCD9D28FED78C00A98462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBADCD9C28FED78C00A98462 /* CardShuffler.app */,
+				DBADCDB228FED78D00A98462 /* CardShufflerTests.xctest */,
+				DBADCDBC28FED78D00A98462 /* CardShufflerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBADCD9E28FED78C00A98462 /* CardShuffler */ = {
+			isa = PBXGroup;
+			children = (
+				DBADCD9F28FED78C00A98462 /* AppDelegate.swift */,
+				DBADCDA128FED78C00A98462 /* SceneDelegate.swift */,
+				DBADCDA328FED78C00A98462 /* ViewController.swift */,
+				DBADCDA528FED78C00A98462 /* Main.storyboard */,
+				DBADCDA828FED78D00A98462 /* Assets.xcassets */,
+				DBADCDAA28FED78D00A98462 /* LaunchScreen.storyboard */,
+				DBADCDAD28FED78D00A98462 /* Info.plist */,
+			);
+			path = CardShuffler;
+			sourceTree = "<group>";
+		};
+		DBADCDB528FED78D00A98462 /* CardShufflerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBADCDB628FED78D00A98462 /* CardShufflerTests.swift */,
+			);
+			path = CardShufflerTests;
+			sourceTree = "<group>";
+		};
+		DBADCDBF28FED78D00A98462 /* CardShufflerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBADCDC028FED78D00A98462 /* CardShufflerUITests.swift */,
+				DBADCDC228FED78D00A98462 /* CardShufflerUITestsLaunchTests.swift */,
+			);
+			path = CardShufflerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBADCD9B28FED78C00A98462 /* CardShuffler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBADCDC628FED78D00A98462 /* Build configuration list for PBXNativeTarget "CardShuffler" */;
+			buildPhases = (
+				DBADCD9828FED78C00A98462 /* Sources */,
+				DBADCD9928FED78C00A98462 /* Frameworks */,
+				DBADCD9A28FED78C00A98462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardShuffler;
+			productName = CardShuffler;
+			productReference = DBADCD9C28FED78C00A98462 /* CardShuffler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBADCDB128FED78D00A98462 /* CardShufflerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBADCDC928FED78D00A98462 /* Build configuration list for PBXNativeTarget "CardShufflerTests" */;
+			buildPhases = (
+				DBADCDAE28FED78D00A98462 /* Sources */,
+				DBADCDAF28FED78D00A98462 /* Frameworks */,
+				DBADCDB028FED78D00A98462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBADCDB428FED78D00A98462 /* PBXTargetDependency */,
+			);
+			name = CardShufflerTests;
+			productName = CardShufflerTests;
+			productReference = DBADCDB228FED78D00A98462 /* CardShufflerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBADCDBB28FED78D00A98462 /* CardShufflerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBADCDCC28FED78D00A98462 /* Build configuration list for PBXNativeTarget "CardShufflerUITests" */;
+			buildPhases = (
+				DBADCDB828FED78D00A98462 /* Sources */,
+				DBADCDB928FED78D00A98462 /* Frameworks */,
+				DBADCDBA28FED78D00A98462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBADCDBE28FED78D00A98462 /* PBXTargetDependency */,
+			);
+			name = CardShufflerUITests;
+			productName = CardShufflerUITests;
+			productReference = DBADCDBC28FED78D00A98462 /* CardShufflerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBADCD9428FED78C00A98462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DBADCD9B28FED78C00A98462 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					DBADCDB128FED78D00A98462 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DBADCD9B28FED78C00A98462;
+					};
+					DBADCDBB28FED78D00A98462 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DBADCD9B28FED78C00A98462;
+					};
+				};
+			};
+			buildConfigurationList = DBADCD9728FED78C00A98462 /* Build configuration list for PBXProject "CardShuffler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBADCD9328FED78C00A98462;
+			productRefGroup = DBADCD9D28FED78C00A98462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBADCD9B28FED78C00A98462 /* CardShuffler */,
+				DBADCDB128FED78D00A98462 /* CardShufflerTests */,
+				DBADCDBB28FED78D00A98462 /* CardShufflerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBADCD9A28FED78C00A98462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBADCDAC28FED78D00A98462 /* LaunchScreen.storyboard in Resources */,
+				DBADCDA928FED78D00A98462 /* Assets.xcassets in Resources */,
+				DBADCDA728FED78C00A98462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBADCDB028FED78D00A98462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBADCDBA28FED78D00A98462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBADCD9828FED78C00A98462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBADCDA428FED78C00A98462 /* ViewController.swift in Sources */,
+				DBADCDA028FED78C00A98462 /* AppDelegate.swift in Sources */,
+				DBADCDA228FED78C00A98462 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBADCDAE28FED78D00A98462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBADCDB728FED78D00A98462 /* CardShufflerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBADCDB828FED78D00A98462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBADCDC128FED78D00A98462 /* CardShufflerUITests.swift in Sources */,
+				DBADCDC328FED78D00A98462 /* CardShufflerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBADCDB428FED78D00A98462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBADCD9B28FED78C00A98462 /* CardShuffler */;
+			targetProxy = DBADCDB328FED78D00A98462 /* PBXContainerItemProxy */;
+		};
+		DBADCDBE28FED78D00A98462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBADCD9B28FED78C00A98462 /* CardShuffler */;
+			targetProxy = DBADCDBD28FED78D00A98462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBADCDA528FED78C00A98462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBADCDA628FED78C00A98462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBADCDAA28FED78D00A98462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBADCDAB28FED78D00A98462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBADCDC428FED78D00A98462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBADCDC528FED78D00A98462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBADCDC728FED78D00A98462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardShuffler/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarlopezt.CardShuffler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBADCDC828FED78D00A98462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardShuffler/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarlopezt.CardShuffler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBADCDCA28FED78D00A98462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarlopezt.CardShufflerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardShuffler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardShuffler";
+			};
+			name = Debug;
+		};
+		DBADCDCB28FED78D00A98462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarlopezt.CardShufflerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardShuffler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardShuffler";
+			};
+			name = Release;
+		};
+		DBADCDCD28FED78D00A98462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarlopezt.CardShufflerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardShuffler;
+			};
+			name = Debug;
+		};
+		DBADCDCE28FED78D00A98462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarlopezt.CardShufflerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardShuffler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBADCD9728FED78C00A98462 /* Build configuration list for PBXProject "CardShuffler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBADCDC428FED78D00A98462 /* Debug */,
+				DBADCDC528FED78D00A98462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBADCDC628FED78D00A98462 /* Build configuration list for PBXNativeTarget "CardShuffler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBADCDC728FED78D00A98462 /* Debug */,
+				DBADCDC828FED78D00A98462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBADCDC928FED78D00A98462 /* Build configuration list for PBXNativeTarget "CardShufflerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBADCDCA28FED78D00A98462 /* Debug */,
+				DBADCDCB28FED78D00A98462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBADCDCC28FED78D00A98462 /* Build configuration list for PBXNativeTarget "CardShufflerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBADCDCD28FED78D00A98462 /* Debug */,
+				DBADCDCE28FED78D00A98462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBADCD9428FED78C00A98462 /* Project object */;
+}
