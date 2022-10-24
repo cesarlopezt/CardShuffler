@@ -1,4 +1,4 @@
-# CardShuffler
+# Random Card
 
 App that goes through random cards until you click stop.
 
