@@ -1,6 +1,6 @@
 # Random Card
 
-App that goes through random cards until you click stop.
+App that goes through random cards to generate workouts. You can also see the same project using [programmatic UI](https://github.com/cesarlopezt/RandomCardProgrammatic)
 
 This project exposed me to:
 - Storyboards
